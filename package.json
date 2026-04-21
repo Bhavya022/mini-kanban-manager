@@ -1,0 +1,17 @@
+{
+  "name": "mini-kanban-root",
+  "version": "1.0.0",
+  "description": "Mini Kanban Task Manager - Full Stack Workspace",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "backend": "cd backend && npm run server",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
