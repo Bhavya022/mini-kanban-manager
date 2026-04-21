@@ -1,4 +1,4 @@
-const BASE = (import.meta.env.VITE_API_URL || '') + '/tasks';
+const BASE = (import.meta.env.VITE_API_URL || 'https://mini-kanban-manager.onrender.com') + '/tasks';
 
 async function handleResponse(res) {
   const json = await res.json();
