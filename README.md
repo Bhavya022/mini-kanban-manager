@@ -1,5 +1,8 @@
 # Mini Kanban Manager
 
+## 🚀 Live Demo
+- Frontend: https://mini-kanban-manager.onrender.com/
+
 A full-stack Kanban-style Task Manager built with Node.js/Express (MVC) and React/Vite.
 
 ## Features
